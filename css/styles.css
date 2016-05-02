@@ -1,6 +1,21 @@
 /***************/
 /* YOUR STYLES */
 /***************/
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* background*/
+body {
+    background-color: #A5AFC1;
+}
+/* Links */
+a {
+    text-decoration: none;
+    color: #D65506;
+}
+a:visited{
+    text-decoration: none;
+    color: #70778C;
+}
 
 /* Color Palette */
 .color-1{
@@ -20,14 +35,16 @@
 }
 
 /* Textures or Patterns*/
-.pattern-1{
-    background:;
+.pattern-1 img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
 }
-.pattern-2{
-    background: ;
+.pattern-2 img{
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
 }
-
-
 
 
 /* Icons */
@@ -35,12 +52,35 @@
     background: ;
 }
 .icon-2{
-    background: #000;
+    background: ;
 }
 
 
-/* Navigation */
-
-
 /* Typography */
+.grid-9 h2 {
+    font-family: 'Roboto', sans-serif;
+}
 
+.grid-9{
+    background-color: ;
+}
+
+.header1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.examplep {
+    font-family: 'Droid Sans',sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    color: #70778C;
+}
